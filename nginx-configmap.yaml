@@ -1,3 +1,4 @@
+---
 apiVersion: v1 # versão da API
 kind: ConfigMap # tipo de recurso, no caso, um ConfigMap
 metadata: # metadados do recurso
