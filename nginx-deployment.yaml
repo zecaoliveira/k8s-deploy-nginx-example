@@ -1,7 +1,9 @@
+---
 apiVersion: apps/v1 # versão da API
 kind: Deployment # tipo de recurso, no caso, um Deployment
 metadata: # metadados do recurso 
   name: nginx-server # nome do recurso
+  namespace: nginx-example # Nome do Namespace onde será implementado a aplicação de exemplo!
 spec: # especificação do recurso
   selector: # seletor para identificar os pods que serão gerenciados pelo deployment
     matchLabels: # labels que identificam os pods que serão gerenciados pelo deployment
