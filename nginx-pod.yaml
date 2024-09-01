@@ -1,7 +1,9 @@
+---
 apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod
+  namespace: nginx-example # Nome do Namespace onde será implementado a aplicação de exemplo!
   labels:
     app: nginx
 spec:
